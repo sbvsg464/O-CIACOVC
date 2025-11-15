@@ -8,6 +8,6 @@
 5.有耐心。
 
 我缩减了VS code的工具链配置(集成mingw64 gcc 15.1, C++/C23)，4个json文件的配置(c_cpp_properties.json, launch.json,settings.json,tasks.json)
-值得注意的是，这个程序会在VS code的根目录下创建一个叫做workFolder的文件夹，你需要选择这个文件夹作为工作区，否则4个json文件将会相当于没有配置过
+值得注意的是，这个程序会在VS code的根目录下创建一个叫做workFolder的文件夹，你需要选择这个文件夹作为工作区，否则4个json文件将会相当于没有配置过(在V1.1.0+版本，已经支持自动将workFolder改为工作区)
 
 由于我在编译参数里写了C23，所以编译的时候可能会弹出关于C23的警告，如果你担心这个警告的话，可以自行删除那个编译参数
